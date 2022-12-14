@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(178, 177, 177);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 100px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.161);
+  animation: skala 2s infinite ease-in-out;
+  transition: all 1s;
+}
+
+.container p#int {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 700;
+}
+
+@keyframes skala {
+  0% {
+    scale: 1;
+  }
+  20% {
+    scale: 1.3;
+  }
+  50% {
+    scale: 0.9;
+  }
+  80% {
+    scale: 1.4;
+  }
+  100% {
+    scale: 1;
+  }
+}
